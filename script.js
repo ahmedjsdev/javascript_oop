@@ -15,7 +15,7 @@ console.log(Car.getInfo());
 /* ************** Using Constructor Function ************** */
 function Person (fName, lName, age) {
     this.firstname = fName;
-    this.lastname = lName,
+    this.lastname = lName, 
     this.age = age; 
 }
 var ahmed = new Person('Ahmed', 'Nasser', 20);
